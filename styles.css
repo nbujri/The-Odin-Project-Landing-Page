@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1f2937;
+  font-family: Roboto, sans-serif;
+  padding: 21px 48px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.header ul {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+}
+
+.header a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+/* Begining of Hero section */
+.hero {
+  display: flex;
+  height: 50vh;
+}
+
+.hero-img {
+  width: 600px;
+  height: auto;
+}
+
+.main-text {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #f9faf8;
+  margin-bottom: 16px;
+}
+
+.secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 16px;
+}
+
+.sign-up {
+  background-color: #3882f6;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+}
+
+/* Begining of information-section */
+.information-section {
+  height: 50vh;
+}
