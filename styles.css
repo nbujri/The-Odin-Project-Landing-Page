@@ -7,7 +7,6 @@
 body {
   background-color: #1f2937;
   font-family: Roboto, sans-serif;
-  padding: 21px 48px;
 }
 
 .header {
@@ -15,6 +14,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 100px;
+  padding: 21px 48px;
 }
 
 .header ul {
@@ -32,6 +32,7 @@ body {
 .hero {
   display: flex;
   height: 50vh;
+  padding: 21px 48px;
 }
 
 .hero-img {
@@ -63,5 +64,37 @@ body {
 
 /* Begining of information-section */
 .information-section {
+  padding: 21px 48px;
+  background-color: white;
   height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.information-section h2 {
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1f2937;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 50px;
+  justify-self: center;
+}
+
+.card-img {
+  width: 200px;
+  height: 200px;
+  border: solid 2px #3882f6;
+  border-radius: 10px;
+}
+
+.card {
+  display: flex;
+  width: 200px;
+  text-align: center;
 }
