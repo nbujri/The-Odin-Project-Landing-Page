@@ -131,3 +131,16 @@ body {
 .source-container {
   align-self: flex-end;
 }
+
+/* Begining of footer */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 0;
+}
+
+footer p {
+  font-size: 18px;
+  color: #e5e5e5;
+}
